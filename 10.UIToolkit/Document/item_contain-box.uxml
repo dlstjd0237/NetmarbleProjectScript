@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="item_contain-box" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Icon/Shikashi&apos;s%20Fantasy%20Icons%20Pack%20v2/%231%20-%20Transparent%20Icons.png?fileID=212662611&amp;guid=cd2069895026ad346846b62d13c3622f&amp;type=3#1 - Transparent Icons_52&quot;);" />
+</ui:UXML>

@@ -1,0 +1,49 @@
+.fish_icon_contain-box {
+    width: 60%;
+    height: 60%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/UI/Icon/Shikashi's%20Fantasy%20Icons%20Pack%20v2/%231%20-%20Transparent%20Icons.png?fileID=-551370172&guid=cd2069895026ad346846b62d13c3622f&type=3#1 - Transparent Icons_216");
+}
+
+.trun_info_label_contain-box {
+    height: 500px;
+    background-image: url("project://database/Assets/3_Creative%20Pack/Card%20Sprites/Minion/minion%20(5).png?fileID=21300000&guid=64c6877845009374c86af5b0fe2496a9&type=3#minion (5)");
+    width: 500px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.85);
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.8s;
+}
+
+.trun_info_label_contain-box.on {
+    opacity: 0;
+    visibility: hidden;
+    scale: 1.8 1.8;
+}
+
+.turn-label {
+    position: absolute;
+    font-size: 170px;
+    -unity-text-align: middle-center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 100%;
+    top: 35%;
+    height: 30%;
+    -unity-font-definition: url("project://database/Assets/00.Work/Baek/07.Fonts/neodgm%20(1)%20SDF.asset?fileID=11400000&guid=21ede73c8e06d494aa642c084e83c25c&type=2#neodgm (1) SDF");
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(255, 99, 99);
+    -unity-text-outline-width: 4px;
+    -unity-font-style: normal;
+    transition-duration: 0.3s;
+}
+
+.turn-label.on {
+    scale: 1.5 1.5;
+}

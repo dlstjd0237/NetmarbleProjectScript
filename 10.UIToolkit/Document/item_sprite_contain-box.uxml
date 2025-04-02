@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="item_sprite_contain-box" class="item_sprite_contain-box" style="background-image: none;" />
+</ui:UXML>

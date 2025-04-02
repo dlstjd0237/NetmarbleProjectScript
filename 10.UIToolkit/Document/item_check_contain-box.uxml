@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="item_chaeck_contain-box" src="project://database/Assets/00.Work/Baek/10.UIToolkit/Document/item_chaeck_contain-box.uxml?fileID=9197481963319205126&amp;guid=fad725687a3235340b01bb902a986fba&amp;type=3#item_chaeck_contain-box" />
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/USS/ItemCheckBox.uss?fileID=7433441132597879392&amp;guid=a0b7e77fea904714ba564f3472c2f589&amp;type=3#ItemCheckBox" />
+    <ui:Instance template="item_chaeck_contain-box" name="item_chaeck_contain-box" />
+</ui:UXML>

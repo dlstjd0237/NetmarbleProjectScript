@@ -1,0 +1,45 @@
+.card_deck-btn {
+    background-image: url("project://database/Assets/3_Creative%20Pack/Card%20Sprites/CardBG/CardBG2.png?fileID=21300000&guid=6311c856a6e87934c9eae984390024e9&type=3#CardBG2");
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    width: 150px;
+    height: 220px;
+    align-items: center;
+    -unity-font-definition: url("project://database/Assets/00.Work/Baek/07.Fonts/neodgm%20(1)%20SDF.asset?fileID=11400000&guid=21ede73c8e06d494aa642c084e83c25c&type=2#neodgm (1) SDF");
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition-duration: 0.3s;
+}
+
+.card_contain-scrollview {
+    height: 70%;
+    width: 84%;
+    padding-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_contain-scrollview .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_contain-box {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Book%20Desk/4.png?fileID=21300000&guid=7274ae07799856f4d940c28b75101a12&type=3#4");
+    width: 100%;
+    height: 100%;
+    -unity-background-image-tint-color: rgb(141, 141, 141);
+    align-items: center;
+    justify-content: flex-start;
+    transition-duration: 0.1s;
+}
+
+.card_contain-box.on {
+    visibility: hidden;
+    opacity: 0;
+}

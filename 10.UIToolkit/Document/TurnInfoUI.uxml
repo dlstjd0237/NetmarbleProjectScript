@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/USS/TurnInfoUI.uss?fileID=7433441132597879392&amp;guid=3ce187a05ad218a4c9bc49c5bb16990f&amp;type=3#TurnInfoUI" />
+    <ui:VisualElement name="turn_info_contain-box" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement name="trun_info_label_contain-box" class="trun_info_label_contain-box">
+            <ui:VisualElement name="fish_icon_contain-box" class="fish_icon_contain-box" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Label tabindex="-1" text="Enemy Turn" parse-escape-sequences="true" display-tooltip-when-elided="true" name="turn-label" class="turn-label" />
+</ui:UXML>

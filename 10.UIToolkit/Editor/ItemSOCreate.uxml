@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/Editor/ItemSOCreate.uss?fileID=7433441132597879392&amp;guid=b3149e63cd44e0846a1c53eafbb1a5fc&amp;type=3#ItemSOCreate" />
+    <ui:VisualElement name="item_create_ui_contain-box" style="flex-grow: 0; -unity-font-definition: url(&quot;project://database/Assets/00.Work/Baek/07.Fonts/Jalnan2TTF%20SDF.asset?fileID=11400000&amp;guid=4a7f6edfbbc4b3d47a86d8f49429f9a0&amp;type=2#Jalnan2TTF SDF&quot;); height: auto; width: auto;">
+        <ui:Label tabindex="-1" text="아이템 생성기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/00.Work/Baek/07.Fonts/Jalnan2TTF%20SDF.asset?fileID=11400000&amp;guid=4a7f6edfbbc4b3d47a86d8f49429f9a0&amp;type=2#Jalnan2TTF SDF&quot;); font-size: 30px; border-bottom-color: rgb(162, 162, 162); border-bottom-width: 1px; margin-top: 16px;" />
+        <ui:TextField picking-mode="Ignore" label="아이템 이름" value="item Name" name="item_name-textField" style="width: 100%; height: 5%;" />
+        <ui:EnumField label="Enum" type="ItemType, Assembly-CSharp" name="item_type-enumfield" />
+        <ui:EnumField label="장비 소" type="ItemElementType, Assembly-CSharp" name="item_element_type-enumfield" />
+        <ui:VisualElement name="sprite_contain-box" class="sprite_contain-box" style="align-items: flex-end; justify-content: space-between;">
+            <uie:ObjectField type="UnityEngine.Sprite, UnityEngine.CoreModule" name="sprite-field" label="아이템 스프라이" class="sprite-field" style="width: 70%; height: 33px; align-items: flex-end;" />
+            <ui:VisualElement name="sprite_contain" class="sprite_icon_contain-box" style="color: rgba(210, 210, 210, 0.03); margin-right: 4px;">
+                <ui:VisualElement name="sprite_icon_contain-box" style="height: 70px; width: 70px; background-color: rgba(127, 127, 127, 0); color: rgba(81, 81, 81, 0.03);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:IntegerField label="공격력" value="0" name="stat_attackf-field" />
+        <ui:IntegerField label="방어력" value="0" name="stat_defensef-field" />
+        <ui:IntegerField label="크리티컬 확률" value="0" name="stat_crichance-field" />
+        <ui:IntegerField label="크리티컬 데이지" value="0" name="stat_cridamage-field" />
+        <ui:IntegerField label="회피율" value="0" name="stat_evasion-field" />
+        <ui:IntegerField label="체력" value="0" name="stat_health-field" />
+        <ui:IntegerField label="산소" value="0" name="stat_oxygen-field" />
+        <ui:IntegerField label="회복량(%)" value="0" name="stat_healingpercent-field" />
+        <ui:Button text="생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="create-btn" style="-unity-font-definition: url(&quot;project://database/Assets/00.Work/Baek/07.Fonts/Jalnan2TTF%20SDF.asset?fileID=11400000&amp;guid=4a7f6edfbbc4b3d47a86d8f49429f9a0&amp;type=2#Jalnan2TTF SDF&quot;); font-size: 28px;" />
+    </ui:VisualElement>
+</ui:UXML>

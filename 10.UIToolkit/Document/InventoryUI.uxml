@@ -1,0 +1,139 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/USS/InventoryUI.uss?fileID=7433441132597879392&amp;guid=9cce67bf9981fcd4680eebeeaba0f043&amp;type=3#InventoryUI" />
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/USS/ItemCheckBox.uss?fileID=7433441132597879392&amp;guid=a0b7e77fea904714ba564f3472c2f589&amp;type=3#ItemCheckBox" />
+    <ui:VisualElement name="inventroy_contain-box" class="inventroy_contain-box on">
+        <ui:VisualElement name="inventroy_book_background_contain-box" style="width: 100%; height: 100%; align-items: center; justify-content: center; overflow: visible;">
+            <ui:VisualElement name="inventroy_book_background_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Book%20Desk/4.png?fileID=21300000&amp;guid=7274ae07799856f4d940c28b75101a12&amp;type=3#4&quot;); width: 90%; height: 90%; align-items: center; justify-content: flex-start; top: -17px; -unity-background-image-tint-color: rgb(93, 39, 0);">
+                <ui:VisualElement name="inventroy_book_background_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Basic%20Pack%201.0/Pixel%20Paper%20v1.0/1%20Sprites/Paper%20inventory/Paper%20Static/1.png?fileID=744931102&amp;guid=976d577c20bde8a4c87e6808fff87bd4&amp;type=3#1_0&quot;); width: 98%; height: 100%; left: 1px; top: -2px; -unity-background-image-tint-color: rgb(197, 154, 90); align-items: center;">
+                    <ui:VisualElement name="inventroy_book_background_contain-box" class="inventory_book_background_page_contain-box" style="-unity-background-image-tint-color: rgb(233, 203, 154);">
+                        <ui:VisualElement name="inventory_book_left_page_contain-box" style="flex-grow: 1; width: 45%; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="equipment_contain-box" class="equipment_page_contain-box">
+                                <ui:VisualElement name="equipment_mid_contain-box" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-between;">
+                                    <ui:VisualElement name="equipment_left_contain-box" class="equipment_contain-box">
+                                        <ui:VisualElement name="equpment_armor_contain-box" class="equpment_compartment_contain-box">
+                                            <ui:VisualElement name="item_sprite_contain-box" class="equipment_background_icon_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/8%20Equipment/8.png?fileID=21300000&amp;guid=398506a3c1f71c842894faea9d067453&amp;type=3#8&quot;);" />
+                                            <ui:Label tabindex="-1" text="갑옷" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_name-label" class="equipment_name-label" />
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="equpment_boots_contain-box" class="equpment_compartment_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/5%20Holders/6.png?fileID=21300000&amp;guid=716e7e87e253df846be9a9262301649f&amp;type=3#6&quot;);">
+                                            <ui:VisualElement name="item_sprite_contain-box" class="equipment_background_icon_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/8%20Equipment/12.png?fileID=21300000&amp;guid=95d5a53705668554e9dbfd7ab98012c3&amp;type=3#12&quot;);" />
+                                            <ui:Label tabindex="-1" text="부츠" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_name-label" class="equipment_name-label" />
+                                        </ui:VisualElement>
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="equipment_mid_contain-box" class="equipment_contain-box">
+                                        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 40%; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Player/Cat/Meow-Knight_Idle.png?fileID=-1652591374&amp;guid=89759ba3d934cc548b629b2e2d10fdc5&amp;type=3#Meow-Knight_Idle_0&quot;); border-bottom-color: rgba(0, 0, 0, 0.62); border-bottom-width: 4px; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px;" />
+                                        <ui:Label tabindex="-1" text="나비" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_name-label" class="equipment_name-label" style="top: 358px; font-size: 29px;" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="equipment_right_contain-box" class="equipment_contain-box">
+                                        <ui:VisualElement name="equpment_helmets_contain-box" class="equpment_compartment_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/5%20Holders/6.png?fileID=21300000&amp;guid=716e7e87e253df846be9a9262301649f&amp;type=3#6&quot;);">
+                                            <ui:VisualElement name="item_sprite_contain-box" class="equipment_background_icon_contain-box" />
+                                            <ui:Label tabindex="-1" text="투구" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_name-label" class="equipment_name-label" />
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="equpment_weapon_contain-box" class="equpment_compartment_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/5%20Holders/6.png?fileID=21300000&amp;guid=716e7e87e253df846be9a9262301649f&amp;type=3#6&quot;);">
+                                            <ui:VisualElement name="item_sprite_contain-box" class="equipment_background_icon_contain-box" style="background-image: url(&quot;project://database/Assets/%231%20-%20Transparent%20Icons.png?fileID=361470260&amp;guid=cd2069895026ad346846b62d13c3622f&amp;type=3#1 - Transparent Icons_49&quot;);" />
+                                            <ui:Label tabindex="-1" text="무기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_name-label" class="equipment_name-label" />
+                                        </ui:VisualElement>
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="info_contain-box" class="info_contain-box on">
+                                <ui:VisualElement name="info_top_contain-box" class="info_top_contain-box">
+                                    <ui:VisualElement name="info_profile_icon_contain-box" class="info_profil_icon_contain-box">
+                                        <ui:VisualElement name="info_icon_contain-box" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Player/Cat/Catprfile.png?fileID=21300000&amp;guid=411c37e7e7658e74d80eca609f9609f3&amp;type=3#Catprfile&quot;); width: 85px; height: 85px;" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_profile_descript_contain-box" class="info_profil_descript_contain-box">
+                                        <ui:Label tabindex="-1" text="대왕참치를 얻기위해 나온고양이" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_profile_power-label" style="-unity-font-definition: url(&quot;project://database/Assets/00.Work/Baek/07.Fonts/neodgm%20(1)%20SDF.asset?fileID=11400000&amp;guid=21ede73c8e06d494aa642c084e83c25c&amp;type=2#neodgm (1) SDF&quot;); font-size: 25px; white-space: normal;" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                                <ui:VisualElement name="info_bottom_contain-box" style="align-items: center; justify-content: space-between; width: 90%; height: 70%; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Folding%20&amp;%20Cutout/6%20Player%20HUD/1.png?fileID=-222937554&amp;guid=fafd3197227862742aab3754a0a63839&amp;type=3#1_0&quot;); padding-top: 20px; padding-bottom: 20px; padding-left: 10px; padding-right: 10px; flex-direction: column; flex-wrap: nowrap;">
+                                    <ui:VisualElement name="info_attackf_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="공격력 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_defensef_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="방어력 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_crichance_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="크리티컬 확률 :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" style="white-space: normal;" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_cridamage_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="크리티컬 데미지 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" style="white-space: normal;" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_evasion_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="회피율 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_health_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="체력 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_oxygen_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="산소 : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="info_healingpercent_stat_contain-box" class="info-stat_contain-box">
+                                        <ui:Label tabindex="-1" text="회복량 (%) :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_name-label" class="info_stat_name-label" />
+                                        <ui:Label tabindex="-1" text="label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info_stat_value-label" class="info_stat_value-label" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" style="position: absolute; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/10%20Banners%20&amp;%20Headers/Cutout/11.png?fileID=21300000&amp;guid=67165f8141e57e442beb99cbe5249efd&amp;type=3#11&quot;); -unity-background-image-tint-color: rgb(226, 197, 144); top: 2px; left: 34px; height: 80px; width: 60px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0); align-items: center; justify-content: flex-start; flex-direction: column;">
+                                <ui:VisualElement name="exit_icon_contain-box" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/2%20Icons/11.png?fileID=21300000&amp;guid=2ab970eb755219d459c96b394dc6793c&amp;type=3#11&quot;); height: 33px; flex-basis: 45px; width: 45px; top: -11px;" />
+                            </ui:Button>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="inventory_book_right_page_contain-box" style="flex-grow: 1; width: 45%; height: 95%; align-items: center; justify-content: center;">
+                            <ui:ScrollView name="item_contain-box" mode="Vertical" class="item_contain-box" style="white-space: normal;">
+                                <ui:VisualElement name="0_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="1_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="2_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="3_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="4_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="5_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="6_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="7_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="8_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="9_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="10_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="11_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="12_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="13_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="14_item_room_contain-box" class="item_room_contain-box" />
+                                <ui:VisualElement name="15_item_room_contain-box" class="item_room_contain-box" />
+                            </ui:ScrollView>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="tabbar_contain-box" style="width: 10%; height: 90%; justify-content: flex-start; position: absolute; left: 90.8%; align-items: center; top: 12px;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="tabbar_equipment-btn" class="tabbar-btn">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" text="장비" name="Label" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="tabbar_info-btn" class="tabbar-btn on">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" text="정보" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="item_check_contain-box" class="item_check_contain-box on">
+        <ui:VisualElement name="item_check_contain_top" class="item_chaeck_contain">
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/28.png?fileID=21300000&amp;guid=937c3332837f7a54e89ade2702579f39&amp;type=3#28&quot;);" />
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/30.png?fileID=21300000&amp;guid=34668a2125bd93240bbd05ca1d7d927e&amp;type=3#30&quot;);" />
+            <ui:VisualElement name="item_sprite_outline_contain-box" style="flex-grow: 1; position: absolute; width: 120px; height: 120px; left: 50px; top: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Content/5%20Holders/25.png?fileID=21300000&amp;guid=b6c0c04db85ce9e48986bff5af2c68a4&amp;type=3#25&quot;); padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                <ui:VisualElement name="item_check_sprite_contain-box" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/%231%20-%20Transparent%20Icons.png?fileID=2081526223&amp;guid=cd2069895026ad346846b62d13c3622f&amp;type=3#1 - Transparent Icons_6&quot;);" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="개쩌는 석궁" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item_name-label" class="item_name-label" style="font-size: 25px; top: 50px; left: 175px;" />
+            <ui:Label tabindex="-1" text="무기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item_type-label" class="equipment_name-label" style="-unity-text-align: middle-left; color: rgb(123, 123, 123); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); top: 87px; left: 175px; font-size: 19px;" />
+            <ui:VisualElement name="item_info_contain-box" style="flex-grow: 1; position: absolute; left: 10%; width: 80%; height: 100%; top: 168px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Edinnu_UI_asset_pack/Dialogue_plates/Plate%20(15).png?fileID=21300000&amp;guid=d5fdb73f2f5cc3b4bafd7c077b047240&amp;type=3#Plate (15)&quot;); -unity-background-image-tint-color: rgb(173, 114, 22); padding-top: 10px; padding-bottom: 10px; padding-right: 5px; padding-left: 5px; flex-wrap: wrap; margin-top: 20px; flex-direction: row; align-items: stretch; align-self: stretch;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="item_check_contain_bottom" class="item_chaeck_contain" style="align-items: flex-end;">
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/34.png?fileID=21300000&amp;guid=d2250d16cf5325c43a8abdc2206ab819&amp;type=3#34&quot;);" />
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/32.png?fileID=21300000&amp;guid=a1bc43f69a6e6b444a5f098383c82257&amp;type=3#32&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="item_check_btn_contain-box" style="flex-grow: 1; position: absolute; bottom: 18px; width: 70%; height: 10%; flex-direction: row; justify-content: space-around; align-items: center;">
+            <ui:Button text="사용" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item_check_positive-btn" class="item_check-btn" />
+            <ui:Button text="취소" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item_check_cancel-btn" class="item_check-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

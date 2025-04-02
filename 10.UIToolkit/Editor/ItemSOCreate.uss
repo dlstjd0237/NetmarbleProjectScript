@@ -1,0 +1,20 @@
+.sprite_contain-box {
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sprite-field {
+    width: 100%;
+    height: 29px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Baek/07.Fonts/Jalnan2TTF%20SDF.asset?fileID=11400000&guid=4a7f6edfbbc4b3d47a86d8f49429f9a0&type=2#Jalnan2TTF SDF");
+}
+
+.sprite_icon_contain-box {
+    flex-grow: 0;
+    width: 23%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.12);
+    margin-left: 2px;
+}

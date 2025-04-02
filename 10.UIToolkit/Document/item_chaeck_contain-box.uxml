@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="item_chaeck_contain-box" style="flex-grow: 1; position: absolute; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Folding%20&amp;%20Cutout/1%20Paper/33.png?fileID=2800000&amp;guid=4f7b0dcb3e0d849459509c3eeb3439b4&amp;type=3#33&quot;); width: 300px; height: 400px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; align-items: center; justify-content: space-between; align-self: stretch; flex-direction: column; flex-wrap: nowrap;">
+        <ui:VisualElement name="item_chaeck_contain_top" class="item_chaeck_contain">
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/28.png?fileID=21300000&amp;guid=937c3332837f7a54e89ade2702579f39&amp;type=3#28&quot;);" />
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/30.png?fileID=21300000&amp;guid=34668a2125bd93240bbd05ca1d7d927e&amp;type=3#30&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="item_chaeck_contain_bottom" class="item_chaeck_contain" style="align-items: flex-end;">
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/34.png?fileID=21300000&amp;guid=d2250d16cf5325c43a8abdc2206ab819&amp;type=3#34&quot;);" />
+            <ui:VisualElement name="item_chaeck_outline_contain-box" style="width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/UI/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/1%20Paper/32.png?fileID=21300000&amp;guid=a1bc43f69a6e6b444a5f098383c82257&amp;type=3#32&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="item_chaeck_btn_contain-box" style="flex-grow: 1; position: absolute; bottom: 0; width: 50%; height: 10%;" />
+    </ui:VisualElement>
+</ui:UXML>

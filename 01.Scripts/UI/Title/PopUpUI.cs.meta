@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9962a690198c584cb5bda0552be75a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _windowExitBtn: {instanceID: 0}
+  - _windowBtn: {instanceID: 0}
+  - _windowBtnCliekClip: {fileID: 8300000, guid: 23aad1ab3ad045a4598939cc53889a87,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

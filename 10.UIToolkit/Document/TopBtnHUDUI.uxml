@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkit/USS/BtnContain.uss?fileID=7433441132597879392&amp;guid=555d7f3d9fb13fa42983c9baec70c41d&amp;type=3#BtnContain" />
+    <ui:VisualElement name="top_btn_bar_contain-box" style="width: 29%; height: 70px; flex-direction: row; align-items: center; background-color: rgba(0, 0, 0, 0); background-image: none; top: 20px; left: 67%; scale: 1 1; transform-origin: center;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="inventory-btn" class="top-btn" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Icon/NewIcon/Profiel.png?fileID=21300000&amp;guid=5599db8026ec5fa409588d978f138842&amp;type=3#Profiel&quot;);" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="deck-btn" class="top-btn" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Icon/NewIcon/CardInfo.png?fileID=21300000&amp;guid=b0389e3628c687d4c8db904829029e78&amp;type=3#CardInfo&quot;);" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="option-btn" class="top-btn" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Icon/NewIcon/Option.png?fileID=21300000&amp;guid=7bfcd550c285d14439fca8e61fb7d8aa&amp;type=3#Option&quot;); width: 80px; height: 80px;" />
+    </ui:VisualElement>
+</ui:UXML>

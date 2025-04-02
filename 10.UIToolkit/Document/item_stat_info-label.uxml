@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Label tabindex="-1" text="ㅇㄴㅁ" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item_stat_info-label" class="item_stat_info-label" style="display: flex;" />
+</ui:UXML>
